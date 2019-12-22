@@ -25,17 +25,24 @@
 resistance([[18,20,11],[20,4],[18],[7,18,18,19],[12,1]]);
 */
 
-function dontGiveMeFive(start, end) {
-    var result = '';
-    start = String(start);
-    end = String(end + 1);
-    for (; start < end; start++) {
-        if (start / 5) {
-            result += start;
+// 22.12.2019
+// https://www.codewars.com/kata/check-rna-nucleotides/train/javascript
+/* function checkNucleotides(sequence) {
+    var result1 = '';
+    var result2 = '';
+    for (var i = 0; i < sequence.length; i++) {
+        if (sequence[i] === 'A' || sequence[i] === 'G' || sequence[i] === 'C' || sequence[i] === 'U') {
+            result1  += `Valid Sequence: ${sequence}`;
+        } else {
+            result2  += `There is an invalid letter: ${sequence[i]}. At position: ${i + 1}`;
+            break;
         }
     }
-    console.log(result);
+    if (result1.includes("There is an invalid letter:") || result2.includes("There is an invalid letter:")) {
+        return result2;
+    } else {
+        return `Valid Sequence: ${sequence}`;
+    }
 }
-dontGiveMeFive(4,17);
-
-
+checkNucleotides("GAUAB");
+*/
