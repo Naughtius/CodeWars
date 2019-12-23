@@ -46,3 +46,24 @@ resistance([[18,20,11],[20,4],[18],[7,18,18,19],[12,1]]);
 }
 checkNucleotides("GAUAB");
 */
+
+// 23.12.2019
+// https://www.codewars.com/kata/regex-validate-pin-code/train/javascript
+/*
+function validatePIN (pin) {
+    if (pin.length === 5) {
+        return false;
+    } else if (pin.length >= 4 && pin.length <= 6) {
+        for (var i = 0; i < pin.length; i++) {
+            if (!/[^0-9]/gim.test(pin)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    } else {
+        return false;
+    }
+}
+validatePIN("1234");
+*/
