@@ -86,3 +86,19 @@ function accum(s) {
 }
 accum("ZpglnRxqenU");
  */
+
+// 25.12.2019
+// https://www.codewars.com/kata/56747fd5cb988479af000028
+/*
+function getMiddle(s) {
+    if (s.length % 2) {
+        var str = s.length / 2;
+        str = Math.floor(str);
+        return s.substr(str, 1);
+    } else {
+        var strNew = s.length / 2;
+        return s.substr(strNew - 1, 2);
+    }
+}
+getMiddle("testing");
+ */
