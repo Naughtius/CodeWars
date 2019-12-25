@@ -85,10 +85,10 @@ function accum(s) {
     return result;
 }
 accum("ZpglnRxqenU");
- */
+*/
 
 // 25.12.2019
-// https://www.codewars.com/kata/56747fd5cb988479af000028
+// https://www.codewars.com/kata/get-the-middle-character/train/javascript
 /*
 function getMiddle(s) {
     if (s.length % 2) {
@@ -101,4 +101,19 @@ function getMiddle(s) {
     }
 }
 getMiddle("testing");
- */
+*/
+
+// 25.12.2019
+// https://www.codewars.com/kata/shortest-word/train/javascript
+/*
+function findShort(s){
+    s = s.split(' ');
+    var result = [];
+    for (var i = 0; i < s.length; i++) {
+        result.push(s[i].length);
+    }
+    result = Math.min.apply(null, result);
+   return result;
+}
+findShort("turns ou random test cases are easier than writing out basic ones");
+*/
