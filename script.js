@@ -1,6 +1,7 @@
 // Первый решенный 7kyu
 // https://www.codewars.com/kata/coding-3min-parallel-circuit/train/javascript
-/* function resistance(arr){
+/*
+function resistance(arr){
     var result1 = 0;
     var result2 = 0;
     for (var i = 0; i < arr.length; i++) {
@@ -27,7 +28,8 @@ resistance([[18,20,11],[20,4],[18],[7,18,18,19],[12,1]]);
 
 // 22.12.2019
 // https://www.codewars.com/kata/check-rna-nucleotides/train/javascript
-/* function checkNucleotides(sequence) {
+/*
+function checkNucleotides(sequence) {
     var result1 = '';
     var result2 = '';
     for (var i = 0; i < sequence.length; i++) {
@@ -67,3 +69,20 @@ function validatePIN (pin) {
 }
 validatePIN("1234");
 */
+
+// 25.12.2019
+// https://www.codewars.com/kata/mumbling/train/javascript
+/*
+function accum(s) {
+    s = s.toLowerCase();
+    var result = '';
+    for (var i = 0; i < s.length; i++) {
+        var str = s[i].repeat(i + 1);
+        var newStr = str[0].toUpperCase() + str.slice(1);
+        result += newStr + '-';
+    }
+    result = result.slice(0, -1);
+    return result;
+}
+accum("ZpglnRxqenU");
+ */
