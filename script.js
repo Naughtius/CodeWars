@@ -117,3 +117,20 @@ function findShort(s){
 }
 findShort("turns ou random test cases are easier than writing out basic ones");
 */
+
+// 26.12.2019
+// https://www.codewars.com/kata/descending-order/train/javascript
+/*
+function descendingOrder(n){
+    n = String(n).split('');
+    var result = [];
+    for (var i = 0; i < n.length; i++) {
+        result.push(Number(n[i]));
+    }
+    result.sort(function(a,b){
+        return b - a;
+    });
+    return Number(result.join(''));
+}
+descendingOrder(1);
+*/
