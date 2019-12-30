@@ -134,3 +134,27 @@ function descendingOrder(n){
 }
 descendingOrder(1);
 */
+
+// 30.12.2019
+// https://www.codewars.com/kata/sum-of-digits-slash-digital-root/train/javascript
+// Первый решенный 6kyu...
+/*
+function digital_root(n) {
+    n = String(n);
+    var res = 0;
+    for (var i = 0; i < n.length; i++) {
+        res += Number(n[i]);
+    }
+    res = String(res);
+    var res1 = 0;
+    for (var k = 0; k < res.length; k++) {
+        if (String(res).length === 1) {
+            return Number(res);
+            break;
+        }
+        res1 += Number(res[k]);
+    }
+    return res1;
+}
+digital_root(456);
+*/
