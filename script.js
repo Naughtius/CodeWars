@@ -159,3 +159,15 @@ function digital_root(n) {
 digital_root(456);
 */
 
+// 01.01.2020
+// https://www.codewars.com/kata/create-phone-number/train/javascript
+/*
+function createPhoneNumber(numbers){
+    var result = '';
+    for (var i = 0; i < numbers.length; i++) {
+        result += String(numbers[i]);        
+    }
+    return `(${result.slice(0,3)}) ${result.slice(3,6)}-${result.slice(6)}`;
+}
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
+*/
