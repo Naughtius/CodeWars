@@ -171,3 +171,21 @@ function createPhoneNumber(numbers){
 }
 createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]);
 */
+
+// 03.01.2020
+// https://www.codewars.com/kata/duplicate-encoder/train/javascript
+/*
+function duplicateEncode(word){
+    word = word.toLowerCase();
+    var result = '';
+    for (var i = 0; i < word.length; i++) {
+        if (word.lastIndexOf(word[i]) == word.indexOf(word[i])) {
+            result += '(';
+        } else {
+            result += ')';
+        }
+    }
+    return result;
+}
+duplicateEncode("Success");
+*/
