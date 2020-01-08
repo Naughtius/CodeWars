@@ -189,3 +189,16 @@ function duplicateEncode(word){
 }
 duplicateEncode("Success");
 */
+
+// 08.01.2020
+// https://www.codewars.com/kata/youre-a-square/train/javascript
+/*
+var isSquare = function(n){
+    if (Math.sqrt(n) % 1 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+isSquare(4);
+*/
