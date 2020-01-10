@@ -202,3 +202,26 @@ var isSquare = function(n){
 }
 isSquare(4);
 */
+
+// 11.01.2020
+// https://www.codewars.com/kata/55908aad6620c066bc00002a/solutions/javascript
+/*
+function XO(str) {
+    var resultO = ''; 
+    var resultX = '';
+    str = str.toLowerCase();
+    for (var i = 0; i < str.length; i++) {
+        if (str[i] === 'o') {
+            resultO += str[i];
+        } else if (str[i] === 'x') {
+            resultX += str[i];
+        }
+    }
+    if (resultO.length === resultX.length) {
+        return true;
+    } else {
+        return false;
+    }
+}
+XO('xxoo');
+*/
