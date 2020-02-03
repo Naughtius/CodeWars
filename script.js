@@ -240,3 +240,20 @@ function friend(friends){
 }
 friend(["Ryan", "Kieran", "Mark"]);
 */
+
+// 03.02.2020
+// https://www.codewars.com/kata/563cf89eb4747c5fb100001b/train/javascript
+/*
+function removeSmallest(numbers) {
+    var arr = numbers.slice(0);
+    var minNum = Math.min.apply(null, numbers);
+    for (var i =  0; i < numbers.length; i++) {
+        if (arr[i] === minNum) {
+            arr.splice(i, 1);
+            break;
+        }
+    }
+    return arr;
+}
+removeSmallest([2, 2, 1, 2, 1]);
+*/
