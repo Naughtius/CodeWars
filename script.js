@@ -257,3 +257,21 @@ function removeSmallest(numbers) {
 }
 removeSmallest([2, 2, 1, 2, 1]);
 */
+
+// 01.03.2020
+// https://www.codewars.com/kata/5264d2b162488dc400000001/train/javascript
+/*
+function spinWords(word) {
+    let arr = word.split(' ');
+    let result = "";
+    arr.forEach(element => {
+        if (element.length >= 5) {
+            result += element.split("").reverse().join("") + ' ';
+        } else {
+            result += element + ' ';
+        }
+    });
+    return result.substring(0, result.length - 1);
+}
+spinWords("Hey fellow warriors");
+*/
